@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header__content">
+          <p class="number__content">1</p>
+          <div class="header__content__text">
+            <h1 class="header__title">display: flex;</h1>
+            <p>Назначение: запуск механизма Flexbox</p>
+            <p>Возможные значения: flex / inline-flex</p>
+          </div>
+
+          <div class="sample">
+            <div class="sample__content">
+              <div class="sample__child">1</div>
+              <div class="sample__child">2</div>
+              <div class="sample__child">3</div>
+              <p class="title__content"></p>
+            </div>
+
+            <div class="sample__content">
+              <div class="sample__child">1</div>
+              <div class="sample__child">2</div>
+              <div class="sample__child">3</div>
+              <p class="title__content"></p>
+            </div>
+          </div>
+        </div>
+        <div class="header__content">
+          <p class="number__content">2</p>
+          <div class="header__content__text">
+            <h1 class="header__title">flex-direction: row</h1>
+            <p>направление укладки элементов по осям</p>
+            <p>
+              Возможные значения:row / row-reverse / column / column-reverse
+            </p>
+          </div>
+
+          <div class="sample">
+            <div class="sample__content">
+              <div class="sample__child">3</div>
+              <div class="sample__child">2</div>
+              <div class="sample__child">1</div>
+            </div>
+            <div class="sample__content">
+              <div class="sample__child__row-reverse">
+                <div class="sample__child">1</div>
+                <div class="sample__child">2</div>
+                <div class="sample__child">3</div>
+              </div>
+            </div>
+            <div class="sample__content__2">
+              <div class="sample__child__columns__content">
+                <div class="sample__child__columns">1</div>
+                <div class="sample__child__columns">2</div>
+                <div class="sample__child__columns">3</div>
+              </div>
+            </div>
+            <div class="sample__content__2">
+              <div class="sample__child__columns__content">
+                <div class="sample__child__columns">3</div>
+                <div class="sample__child__columns">2</div>
+                <div class="sample__child__columns">1</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="container">
+        <div class="header__content">
+          <p class="number__content">1</p>
+          <div class="header__content__text">
+            <h1 class="header__title">flex-wrap:nowrap;</h1>
+            <p>
+              Назначение:задаёт правила вывода flex-элементов — в одну строку
+              или в несколько, с переносом блоков. Если перенос разрешён, то
+              возможно задать направление, в котором выводятся блоки.;
+            </p>
+            <p>Возможные значения:nowrap / wrap / wrap-reverse;</p>
+          </div>
+          <div class="sample">
+            <div class="sample__content__flex-wrap">
+              <div class="sample__child__flex-wrap">3</div>
+              <div class="sample__child__flex-wrap">2</div>
+              <div class="sample__child__flex-wrap">1</div>
+              <div class="sample__child__flex-wrap">1</div>
+            </div>
+            <div class="sample__content__flex-wrap__2">
+              <div class="child_flex-wrap">
+                <div class="sample__child__flex-wrap__2">1</div>
+                <div class="sample__child__flex-wrap__2">2</div>
+                <div class="sample__child__flex-wrap__2">3</div>
+                <div class="sample__child__flex-wrap__2">4</div>
+                <div class="sample__child__flex-wrap__2">5</div>
+                <div class="sample__child__flex-wrap__2">6</div>
+                <div class="sample__child__flex-wrap__2">7</div>
+                <div class="sample__child__flex-wrap__2">8</div>
+                <div class="child__flex-wrap">
+                  <div class="sample__child__flex-wrap__2">9</div>
+                  <div class="sample__child__flex-wrap__2">10</div>
+                  <div class="sample__child__flex-wrap__2">11</div>
+                </div>
+              </div>
+            </div>
+            <div class="sample__content__flex-wrap__3">
+              <div class="child__flex-wrap-2">
+                <div class="sample__child__flex-wrap__3">1</div>
+                <div class="sample__child__flex-wrap__3">2</div>
+                <div class="sample__child__flex-wrap__3">3</div>
+              </div>
+              <div class="sample__child__flex-wrap__bottom__3">4</div>
+              <div class="sample__child__flex-wrap__bottom__3">5</div>
+              <div class="sample__child__flex-wrap__bottom__3">6</div>
+              <div class="sample__child__flex-wrap__bottom__3">7</div>
+              <div class="sample__child__flex-wrap__bottom__3">8</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section__2 -->
+    <section>
+      <div class="container">
+        <div class="section__content__2">
+          <p class="number__content">2</p>
+          <div class="header__content__text">
+            <h1 class="header__title">justify-content:flex-start;</h1>
+            <p>
+              направление: Элементы располагаются друг за другом и прижимаются к
+              началу контейнера по главной оси, в зависимости от её направления
+            </p>
+            <p>
+              Возможные значения:flex-start / flex-end / center / space-between
+              / space-around
+            </p>
+          </div>
+          <div class="sample">
+            <div class="sample__content">
+              <div class="sample__child">1</div>
+              <div class="sample__child">2</div>
+              <div class="sample__child">3</div>
+            </div>
+            <div class="sample__content">
+              <div class="child sample__child">1</div>
+              <div class="child sample__child">2</div>
+              <div class="child sample__child">3</div>
+            </div>
+            <div class="sample__justify-content">
+              <div class="sample__content">
+                <div class="child sample__child__center">1</div>
+                <div class="child sample__child__center">2</div>
+                <div class="child sample__child__center">3</div>
+              </div>
+
+              <div class="sample__content">
+                <div class="child__space-between">
+                  <div class="child sample__child__space-between">1</div>
+                  <div class="child sample__child__space-between">2</div>
+                  <div class="child sample__child__space-between">3</div>
+                  <div class="child sample__child__space-between">3</div>
+                </div>
+              </div>
+
+              <div class="sample__content">
+                <div class="child__space-around">
+                  <div class="child sample__child__space-around">1</div>
+                  <div class="child sample__child__space-around">2</div>
+                  <div class="child sample__child__space-around">3</div>
+                  <div class="child sample__child__space-around">3</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="section__content__3">
+          <p class="number__content">1</p>
+          <div class="header__content__text">
+            <h1 class="header__title">align-items: stretch;</h1>
+            <p>
+              Назначение:Элементы Flex растягиваются, например, поперечный
+              размер поля элемента совпадает с линией при соблюдении ограничений
+              ширины и высоты.
+            </p>
+            <p>
+              Возможные значения:stretch / flex-start / flex-end / center /
+              baseline
+            </p>
+          </div>
+          <div class="aligm-items__1">
+            <div class="align-items sample__content__align-items">
+              <div class="sample__child">1</div>
+              <div class="sample__child">2</div>
+              <div class="sample__child">3</div>
+            </div>
+            <div class="align-items sample__content__align-items">
+              <div class="box sample__child__flex-start">1</div>
+              <div class="box sample__child__flex-start">2</div>
+              <div class="box sample__child__flex-start">3</div>
+            </div>
+          </div>
+          <div class="align-items__2">
+            <div class="align-items sample__content__align-items">
+              <div class="box sample__child__flex-end">1</div>
+              <div class="box sample__child__flex-end">2</div>
+              <div class="box sample__child__flex-end">3</div>
+            </div>
+            <div class="align-items sample__content__align-items">
+              <div class="box sample__child__align-items__center">1</div>
+              <div class="box sample__child__align-items__center">2</div>
+              <div class="box sample__child__align-items__center">3</div>
+            </div>
+            <div class="align-items sample__content__align-items">
+              <div class="box baseline sample__child__baseline-1">1</div>
+              <div class="baseline sample__child__baseline-2">2</div>
+              <div class="baseline sample__child__baseline-3">3</div>
+              <div class="baseline sample__child__baseline-4">3</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section__3 -->
+    <section>
+      <div class="section__content__element">
+        <div class="container">
+          <h1 class="section__content__title">СВОЙСТВА FLEX-ЭЛЕМЕНТА</h1>
+          <div class="section__content__order">
+            <div class="section__title__order">
+              <h1 class="title order__text">order: 0;</h1>
+              <p>Назначение:Определение порядка расстановка <br> flex-элементов</p>
+              <p>Возможные значения:(Целое число)</p>
+            </div>
+            <div class="order sample__parent__child__order">
+              <div class="element sample__child__order">3</div>
+              <div class="element sample__child__order">1</div>
+              <div class="element sample__child__order">4</div>
+              <div class="element sample__child__order">2</div>
+              <div class="element sample__child__order">5</div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="section__content__flex-grow">
+            <div class="section__content__flex-grow">
+              <h1 class="title flex-grow__text">flex-grow:0;</h1>
+              <p>Назначение:Указывает фактор <br> растягивания flex-элемента</p>
+              <p>Возможные значения:(Целое неотрицательное число)</p>
+            </div>
+            <div class="parent__flex-grow__sample">
+              <div class="order sample__parent__child__flex-grow">
+                <div class="element sample__child__flex-grow">1</div>
+                <div class="element sample__child__flex-grow">2</div>
+                <div class="element sample__child__flex-grow">3</div>
+                <div class="element sample__child__flex-grow">4</div>
+                <div class="element sample__child__flex-grow">5</div>
+              </div>
+
+              <div class="order sample__parent__child__flex-grow">
+                <div class="element sample__child__flex-grow">1</div>
+                <div class="element sample__child__flex-grow">2</div>
+                <div class="element sample__child__flex-grow__3">3</div>
+                <div class="element sample__child__flex-grow">4</div>
+                <div class="element sample__child__flex-grow">5</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="section__content__flex-shrink">
+            <div class="section__content__flex-grow">
+              <h1 class="title flex-grow__text">flex-shrink:1;</h1>
+              <p>Назначение:Фактор сужения flex-элемента</p>
+              <p>Возможные значения:0</p>
+            </div>
+            <div class="parent__flex-grow__sample">
+              <div class="order sample__parent__child__flex-grow">
+                <div class="element sample__child__flex-grow">1</div>
+                <div class="element sample__child__flex-grow">2</div>
+                <div class="element sample__child__flex-grow">3</div>
+                <div class="element sample__child__flex-grow">4</div>
+                <div class="element sample__child__flex-grow">5</div>
+              </div>
+
+              <div class="order sample__parent__child__flex-grow">
+                <div class="element sample__child__flex-grow">1</div>
+                <div class="element sample__child__flex-grow__3">2</div>
+                <div class="element sample__child__flex-grow">3</div>
+                <div class="element sample__child__flex-grow">4</div>
+                <div class="element sample__child__flex-grow">5</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="section__content__flex-gasis">
+            <div class="section__content__flex-grow">
+              <h1 class="title flex-grow__text">flex-basis:auto;</h1>
+              <p>Назначение:Исходный главный размер flex-элемента</p>
+              <p>
+                Возможные значения:Длина элемента <br />
+                и пикселях (к примеру, 240px)
+              </p>
+            </div>
+            <div class="parent__flex-grow__sample">
+              <div class="order sample__parent__child__flex-grow">
+                <div class="element sample__child__flex-grow">1</div>
+                <div class="element sample__child__flex-grow">2</div>
+                <div class="element sample__child__flex-grow">3</div>
+                <div class="element sample__child__flex-grow">4</div>
+                <div class="element sample__child__flex-grow">5</div>
+              </div>
+
+              <div class="order sample__parent__child__flex-grow">
+                <div class="element sample__child__flex-grow">1</div>
+                <div class="element sample__child__flex-grow__3">2</div>
+                <div class="element sample__child__flex-grow">3</div>
+                <div class="element sample__child__flex-grow">4</div>
+                <div class="element sample__child__flex-grow">5</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="section__content__align-self">
+            <div class="section__content__flex-grow">
+              <h1 class="title flex-grow__text">align-self:auto</h1>
+              <p>
+                Назначение:Переопределяет выравнивание <br />
+                элемента по умолчанию
+              </p>
+              <p>
+                Возможные значения:auto / flex-start <br />/ flex-end / center /
+                baseline / stretch
+              </p>
+            </div>
+            <div class="parent__flex-grow__sample">
+              <div class="order sample__parent__child__flex-grow">
+                <div class="element sample__child__flex-grow">1</div>
+                <div class="element sample__child__flex-grow">2</div>
+                <div class="element sample__child__align-self__3">3</div>
+                <div class="element sample__child__align__self__4">4</div>
+                <div class="element sample__child__flex-grow">5</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
